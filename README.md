@@ -79,7 +79,7 @@ pip install -r requirements.txt
 - [Issue #4](Another Cache layer was added to prevent re-search of the same queries. This was done to make the retrieval process more efficient.)
 - [Issue #5](Cross Encoder based Reranker was added to better select the most relevant passages from the document. This was done to improve the quality of the answers to the user queries.)
 - [Issue #6](Hardcoded API keys were replaced with input from user. This was done to make the project more secure and user-friendly.)
-- [Issue #7](Embedding generation using ChromaDB's Default model was replaced using OpenAI's Embedding Model. This was done to improve the quality of the answers to the user queries.)
+- [Issue #7](Embedding generation using ChromaDB's Default model was replaced by OpenAI's Embedding Model. This was done to improve the quality of the answers to the user queries.)
 - [Issue #8](Changed 'Tempearture' parameter of OpenAI's Embedding Model to 0.1. This was done to improve the quality of the answers to the user queries so that the model doesn't generate irrelevant answers and produces reproducible and consistent results.)
 
 ---
