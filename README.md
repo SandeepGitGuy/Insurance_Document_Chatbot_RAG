@@ -39,10 +39,10 @@ The RAG QA Chatbot is a robust solution for answering queries on insurance docum
 ---
 
 ## 📸 Sample Output
-### 1. User Input Interface
+### 1. Sample Code Output
 ![Sample Code Output](Code%20Sample%20Output%20Screenshots/Code%20Sample%20Output%201.png)
 
-### 2. Recommendation Output
+### 2. Sample Code Output Cache Response
 ![Sample Code Output Cache Response](Code%20Sample%20Output%20Screenshots/Code%20Sample%20Output%202.png)
 
 
