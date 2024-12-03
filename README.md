@@ -1,7 +1,7 @@
 # RAG QA Chatbot for Insurance Documents  
 Effortless Question Answering on Insurance Documents Powered by RAG and Gemini Flash Model  
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen.svg)](https://www.python.org/)  
 
 ---  
