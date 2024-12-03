@@ -1,0 +1,7 @@
+- [Version 0.1.0]-26/11/24 - Initial Commit
+- [Version 0.1.1]-27/12/24 - Changed preprocessing code to use PDFplumber instead of PyPDF2 and reworked code to extract tables from PDF.
+- [Version 0.1.2]-28/12/24 - Added Cache Layer to improve the performance of the chatbot.
+- [Version 0.1.3]-29/12/24 - Added Cross-Encoder based Reranker to improve the quality of the answers to the user queries.
+- [Version 0.1.4]-29/12/24 - Reworked System Prompt/Insturctions to guide the model to generate more relevant answers to the user queries.
+- [Version 0.2.0]-03/12/24 - Changed code to input API Keys from user instead of Hardcoding.
+- [Version 0.2.1]-03/12/24 - Added OpenAI Model for Embeddings generation while output generation still uses Gemini's Flash Model. Reconfigured code to accommodate the change. Some bug fixes.
