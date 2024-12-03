@@ -72,6 +72,18 @@ pip install -r requirements.txt
 
 ---
 
+## 🛠️ Challenges/Issues Faced with fixes
+- [Issue #1](For Preprocessing PDF file, many tools like PDFminer, PyPDF2 etc was tried, but they were not suitable for the task. PDFplumber was finally chosen.)
+- [Issue #2](Extracting Tables from PDF was also a challenge. Whole data processing logic was reworked with PdfPlumber to extract the data from tables in readable format and then appended in the correct sequence.)
+- [Issue #3](Cache layer was added in ChromaDB to prevent re-embedding of the same documents. This was done to avoid overloading the ChromaDB server with data and to make the retrieval process more efficient.)
+- [Issue #4](Another Cache layer was added to prevent re-search of the same queries. This was done to make the retrieval process more efficient.)
+- [Issue #5](Cross Encoder based Reranker was added to better select the most relevant passages from the document. This was done to improve the quality of the answers to the user queries.)
+- [Issue #6](Hardcoded API keys were replaced with input from user. This was done to make the project more secure and user-friendly.)
+- [Issue #7](Embedding generation using ChromaDB's Default model was replaced using OpenAI's Embedding Model. This was done to improve the quality of the answers to the user queries.)
+- [Issue #8](Changed 'Tempearture' parameter of OpenAI's Embedding Model to 0.1. This was done to improve the quality of the answers to the user queries so that the model doesn't generate irrelevant answers and produces reproducible and consistent results.)
+
+---
+
 ## 🚀 Future Scope
 - Expand support for multi-language documents and queries.
 - Add support for file formats beyond PDF.
